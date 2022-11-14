@@ -136,6 +136,10 @@ echo /subscriptions/$subscriptionID/resourceGroups/$aibResourceGroup/providers/M
 ```
 * Regions separated by comma - Add `westus2,eastus`, note, you will pay for replication and storage costs for images, so if you do not to use eastus, just remove it.
 * Save all the changes
+* ### # Example output format 
+/subscriptions/xxxxxxx/resourceGroups/xxxxxx/providers/Microsoft.Compute/galleries/xxxxxxx/images/xxxxxxx
+
+/subscriptions/6b9a2347-1beb-4331-8c82-a9ad0597d1e2/resourceGroups/myimagebuilder-rg/providers/Microsoft.Compute/galleries/myaibsig01/images/win10wvd
 
 ### Start the Image Build
 * Click on 'Create Release', then 'Create'.
